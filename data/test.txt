@@ -1,0 +1,6 @@
+sun (x=0,y=0, size=50, mx=0,my=0, mass=1000) {
+  mars (dist=150, rot=0, size=5, mass=20, clwise=true) {}
+  earth (dist=150, rot=180, size=5, mass=20, clwise=true) {
+    moon (dist=10, rot=0, size=2, mass=1, clwise=false) {}
+  }
+}
